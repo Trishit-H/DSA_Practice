@@ -4,8 +4,6 @@
 // 1 2 
 // 1 
 
-package Patterns;
-
 public class Pattern_5 {
 
     public static void print(int n) {
