@@ -11,7 +11,7 @@ import java.util.HashMap;
 
 public class P4_IsomorphicStrings {
 
-    public static boolean checkIsomorphism(String s, String t) {
+    public static boolean isIsomorphic(String s, String t) {
 
         // different length strings cannot be isomorphic
         if (s.length() != t.length()) {
@@ -62,6 +62,6 @@ public class P4_IsomorphicStrings {
         String s = "paper";
         String t = "title";
 
-        System.out.println(checkIsomorphism(s, t));
+        System.out.println(isIsomorphic(s, t));
     }
 }
